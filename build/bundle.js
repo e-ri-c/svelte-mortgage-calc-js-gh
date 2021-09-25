@@ -474,7 +474,7 @@ var app = (function () {
     	let totalPaid;
     	let interestPaid;
     	var formatter = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" });
-    	let loanAmount = 200000;
+    	let loanAmount = 250000;
     	let years = 15;
     	let interestRateInput = 200;
 

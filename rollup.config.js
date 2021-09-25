@@ -76,7 +76,7 @@ export default {
     production &&
       terser() &&
       ghPages.publish("public", () => {
-        console.log("uploaded to github pages");
+        console.log("Uploaded to github pages");
       }),
   ],
   watch: {

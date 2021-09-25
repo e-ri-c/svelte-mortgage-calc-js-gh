@@ -3,7 +3,7 @@
     style: "currency",
     currency: "EUR",
   });
-  let loanAmount = 200000;
+  let loanAmount = 210000;
   let years = 15;
   let interestRateInput = 200;
   $: interestRate = interestRateInput / 100;
